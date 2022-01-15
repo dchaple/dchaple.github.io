@@ -1,0 +1,11 @@
+// This variable will stay the same. The temperature 239 will be store inside
+const kelvin = 0;
+
+// Here we calcualte what the kelvin temp would be in celsius 
+let celsius = kelvin - 273; 
+
+// Here we use the celsius result from before with the formula to calculate the temp in fahrenheit 
+// The floor method here from the math object will round down the decimal result
+let fahrenheit = Math.floor(celsius * (9/5) + 32);
+ 
+console.log('The temperature is ' + fahrenheit + ' degrees Fahrenheit');
